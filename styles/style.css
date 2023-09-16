@@ -1,0 +1,33 @@
+.trustport-login-btn {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px 12px;
+  background-color: #030E1A;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.trustport-login-btn:hover {
+  background-color: #252727;  /* Un poco más oscuro al pasar el mouse */
+}
+
+.trustport-icon {
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/bxs-id-card.svg'); /* Reemplaza con la ruta a tu icono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+
+.trustport-label {
+  color: #B3BAC5;  /* Letra en un tono gris claro acorde al color de fondo */
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+}
